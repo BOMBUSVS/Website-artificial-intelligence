@@ -1,0 +1,118 @@
+body {
+    background: url(iu.jpg) no-repeat center center fixed;
+    background-size: contain;
+    margin: 20;
+    background-color: #E0F8F7;
+}
+
+.container {
+    margin: 0 auto;
+    width: 850px;
+    padding-top: 30px;
+    padding-left: 410px;
+    padding-right: 30px;
+}
+
+.float2,
+.float1,
+.float3 {
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 31%;
+    display: inline-block;
+    vertical-align: top;
+    color: #086A87;
+}
+
+header {
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    color: #04B4AE;
+}
+
+    header > h1 {
+        background: url("2.png") no-repeat;
+        background-position: middle;
+        background-size: 102%;
+        margin: 0;
+        color: black;
+        text-shadow: 1px 1px 2px white, 0 0 1em white;
+    }
+
+.logo > * {
+    padding: 80px;
+}
+
+.logo > a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 20%;
+    background: linear-gradient(to right,rgba(1, 0, 1, 0.75), transparent)
+}
+
+header > h3 {
+    float: right;
+    margin-top: -50px;
+    padding-right: 10px;
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 1em white;
+}
+
+header ~ * {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: #0A2A29;
+    color: #086A87
+}
+
+    nav > a {
+        color: #04B4AE;
+        text-transform: uppercase;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+section {
+    margin-bottom: 210px;
+}
+
+header + section {
+    width: 36%;
+    margin: 110px auto 0;
+    display: table;
+    color: #0B3B39;
+}
+
+.container > nav {
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+header + section > a {
+    display: table;
+    margin: 0 auto;
+    width: 38%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #088A85;
+}
+
+footer > * {
+    display: inline-flex;
+}
